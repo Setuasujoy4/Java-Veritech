@@ -136,7 +136,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 g.getFont().getSize());
     }
 
-    @Override
+    
     public void actionPerformed(ActionEvent e) {
         if (running) {
             move();
@@ -147,7 +147,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     private class MyKeyAdapter extends KeyAdapter {
-        @Override
+        
         public void keyPressed(KeyEvent e) {
             switch (e.getKeyCode()) {
                 case KeyEvent.VK_LEFT:
